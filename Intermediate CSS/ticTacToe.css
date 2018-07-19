@@ -1,0 +1,21 @@
+h1 {
+	text-align: center;
+	color: blue;
+}
+table{
+	margin: auto;
+	/*auto arranges this table according to the browser 
+	window*/
+}
+td{
+	width: 100px;
+	height: 100px;
+}
+tr:nth-of-type(2) td{
+	border-bottom: 2px solid red;
+	border-top: 2px solid red;
+}
+td:nth-of-type(even){
+	border-right: 2px solid red;
+	border-left: 2px solid red;
+}

@@ -1,0 +1,40 @@
+/*Elements*/
+li{
+
+}
+/*class*/
+.hello{
+
+}
+/*id*/
+#name{
+
+}
+
+/* Star(*) selector - used to select all the elements present in 
+our HTML*/
+* {
+	border: 1px solid lightgrey;
+}
+
+/*Descendant selectors - These are used to apply styling to the 
+tags in tags kindof nested manner*/
+li a{
+	color: red;
+}
+
+/*Adjacent Selectors - It lets us select  elements that come after
+another elements*/
+h4 + ul {
+	border: 2px solid green;
+}
+
+/*Attribute Selector*/
+a[href="http://www.google.com"]{
+	background:orange;
+}
+
+/*nth of type*/
+ul:nth-of-type(3){
+	background: lightgrey;
+}

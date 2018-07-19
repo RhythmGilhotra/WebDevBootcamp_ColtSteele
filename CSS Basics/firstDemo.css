@@ -1,0 +1,25 @@
+h1 {
+	/*color: green;*/
+	color: #FFFF00;
+	/*The color codes follow the hexadecimal number system.In 
+	this color system where the first two represent the amount of
+	red, the next two represent the amount of green and the last 
+	two	represent the amount of blue in the final color.
+	Example:- #FFFFFF -> White and #000000 -> Black
+	or you can explore the color picker to get different palletes
+	https://htmlcolorcodes.com/color-picker/ */
+}
+
+li {
+	/*color: red;*/
+	color: rgb(100,0,100);
+	/*This is the RGB color system where there's three channels -
+	Red, Green and Blue. Each ranges from 0-255*/
+
+
+}
+h4 {
+	color : rgba(100,0,10,0.5);
+	/*This works same as RGB but with a fourth parameter known as 
+	alpha which is used for changing the transparacy*/
+}

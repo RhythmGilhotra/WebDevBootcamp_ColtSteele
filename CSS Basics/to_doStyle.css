@@ -1,0 +1,16 @@
+li {
+	border : 1px solid purple;
+}
+
+#special {
+	background-color: yellow;
+}
+
+.completed {
+	text-decoration: line-through;
+}
+
+/*# is used when styling an ID element 
+. is used to specify the class that is to be styled
+
+line-through is used to strikethrough an element */

@@ -1,0 +1,29 @@
+h4 {
+	background: red;
+	/*Border in CSS has three parts - Width, Color and Style*/
+	border-color: black;
+	border-width: 5px;
+	border-style: solid;
+
+	/*Equivalent syntax to the above three lines :-
+	border: 5px solid purple*/
+
+
+}
+body {
+	/*background: green;
+	If we want our background to be an image then we can use
+	the url() function. Example:- */
+	background: url("https://previews.123rf.com/images/vska/vska1505/vska150500070/39876679-new-future-technology-concept-abstract-background-for-business-solution.jpg");
+
+	/*If our background image is not big enough then it'll repeat
+	itself .In order to stop the repeating process we can 
+	implement the following line*/
+	background-repeat: no-repeat;
+
+	/*If the non-repeating background isn't big enough to fit the 
+	background then we can use the following line to fill the
+	whole background*/
+	background-size: cover;
+
+}

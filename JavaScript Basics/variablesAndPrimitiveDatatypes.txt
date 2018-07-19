@@ -1,0 +1,32 @@
+Javascript has 5 main types of primitive data types. These are:-
+a)Numbers - Javascript treats integers, float and double same under a data type called numbers .
+b)Strings - Collection of characters
+c)Boolean - True or False
+d)Null
+e)Undefined
+
+Indexing in javascript starts with 0  
+
+Variables are defined using a keyword "var" in javascript. Example:- If we want a variable with my name stored in it we can declare the variable as-
+var myName = "Rhythm Gilhotra";
+
+//If I want the length of my name i could use the length function. Example:-
+myName.length ;
+//It returns us 15  as our output which counts a space as a character 
+
+Javascript variable names are in camelCase 
+
+Some of the useful built-in methods are :-
+a)alert
+b)prompt
+c)console.log
+
+clear() is a method used to clear the console 
+
+alert() - Used to make pop-up windows 
+		Example - alert("Alert Message goes here!!")
+
+console.log() - It prints something to the javascript console
+
+prompt() - It helps us get input from the user 
+		Example:- prompt("Whats your name ?")
